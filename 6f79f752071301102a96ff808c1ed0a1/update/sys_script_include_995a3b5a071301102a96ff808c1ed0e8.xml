@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.CI/CD Script</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CI/CD Script</name>
+        <script><![CDATA[var CICD_Script = Class.create();
+CICD_Script.prototype = {
+    initialize: function() {
+    },
+
+    type: 'CI/CD Script'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-09 03:07:58</sys_created_on>
+        <sys_id>995a3b5a071301102a96ff808c1ed0e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CI/CD Script</sys_name>
+        <sys_package display_value="CI/CD" source="6f79f752071301102a96ff808c1ed0a1">6f79f752071301102a96ff808c1ed0a1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CI/CD">6f79f752071301102a96ff808c1ed0a1</sys_scope>
+        <sys_update_name>sys_script_include_995a3b5a071301102a96ff808c1ed0e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-09 03:07:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
